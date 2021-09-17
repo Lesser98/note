@@ -1,0 +1,34 @@
+//visual studio code (가벼운 코딩용 프로그램)
+
+remote repository [github(origin)]
+
+↑(Push)↓(Full)
+
+Local repository [my computer]
+
+↑(Commit)↓(Revert)
+
+working tree [윈도우 탐색기]
+
+git 작업 중 complit -> 오리진의 최신버젼 파일과 다름
+ㄴpull로 오리진의 파일을 당겨와 본인의 본인의 파일과 merge 해줄것
+
+실수값 입력시 끝자리 f 붙여줄것
+	//type
+	//int -> float
+	//float -> int
+	//double -> float
+	// int -> char
+	// char -> int
+	//casting(형변환)
+	//(형)원래형태
+	//static_cast<새로운형>(원래형태)
+
+[32bit 하드웨어 기준]
+int 정수형 변수 사용시 32bit(2^32) 의 값까지 지정가능(더 높은값을 사용할시 long)
+
+/t(8칸공백) /b(백스페이스) /n(줄바꿈) -> 아스키코드에 등록 되어있는
+
+//이항 연산자 +,-,*,/,%
+//단항 연산자 ++,--
+
