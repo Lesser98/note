@@ -1,0 +1,127 @@
+int i = 0;
+	int Number = 0;
+
+	cin >> Number; //유저를 절대로 믿으면 안된다.
+	if () //만약에 (가정)
+	{
+
+	}
+
+
+		for (i = Number; i <= 10; i++)
+		{
+
+		}
+	cout << i << endl;
+	
+	
+	
+학점
+int main()
+{
+	cout << "점수를 입력하시오" << endl;
+	int Numbar = 0;
+	cin >> Numbar;
+
+	cout << "당신의 점수는" << Numbar << "으로 학점은" << endl;
+	if (Numbar >= 90) 
+		cout << "A" << endl;
+	else if (Numbar >= 80) 
+		cout << "B" << endl;
+	else if (Numbar >= 70) 
+		cout << "C" << endl;
+	else if (Numbar >= 60) 
+		cout << "D" << endl;
+	else if (Numbar >= 50) 
+		cout << "F" << endl;
+	else
+		cout << "F" << endl;
+
+
+	return 0;
+}
+
+
+
+
+int main()
+{
+	//int Number[10];
+	
+	//for (int i = 0; i < 10; i++)
+	//{
+	//	Number[i] = i + 1;
+	//}
+
+	//for (int i = 0; i < 10; i++)
+	//{
+	//	cout << Number[i] << endl;
+	//}
+	//return 0;
+
+
+	
+	//	int A = 10;
+	//	int B = 20;
+	//	int C = 0;
+		
+	//	C = A;
+	//	A = B;
+	//	B = C;
+
+	//	cout << A << endl << B << endl;
+	//	return 0;
+	
+
+	srand(time(NULL));
+	int Number[10];
+
+	for (int i = 0; i < 10; i++)
+	{
+		Number[i] = i + 1;
+	}
+
+	//난수 초기화, 0 ~ RAND_MAX
+	srand(time(NULL));
+	//숫자 섞기 (shuffle)
+	for (int i = 0; i < 10; ++i)
+	{
+		//0 - 9
+		int R = rand() % 10;
+		//to do, insert 4 lines;
+		/*int R2 = rand() % 10;
+		int Temp = Numbar[R];
+		Numbar[R] = Numbar[R2];
+		Numbar[R2] = Temp;*/
+
+		int tsmc = 0;
+
+		tsmc = Number[i];
+		Number[i] = Number[R];
+		Number[R] = tsmc;
+
+
+	}
+	
+	//출력
+	for (int i = 0; i < 10; i++)
+	{
+		cout << Number[i] << endl;
+	}
+
+
+	//function
+	
+	//선언
+	// 반환형 (int, float, bool, void, char) 함수이름(인자(void))
+	//구현
+	//반환형 (int, float, bool, void, char) 함수이름(인자(void))
+	//{
+	// //togo
+	//}
+
+
+
+
+	return 0;
+}	
